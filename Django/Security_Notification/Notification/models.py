@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Group_Subscriber(models):
+class Group_Subscriber(models.Model):
     ...
 
 
