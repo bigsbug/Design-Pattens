@@ -1,5 +1,5 @@
 from typing import Dict, List
-from event_interfaces import ListenerInterface
+from Notification.EventSystem.event_interfaces import ListenerInterface
 
 
 class EventManager:
