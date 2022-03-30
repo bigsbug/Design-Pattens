@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+
+class NormalModel(models.Model):
+    normal_field = models.TextField(max_length=22)

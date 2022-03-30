@@ -1,3 +1,7 @@
 from django.contrib import admin
+from NormalApp.models import NormalModel
 
-# Register your models here.
+
+@admin.register(NormalModel)
+class Rigister_NormalModel(admin.ModelAdmin):
+    pass
