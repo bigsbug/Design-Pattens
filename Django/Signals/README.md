@@ -4,4 +4,4 @@ in this repo we simulate the built-in signals feature with the Event design patt
 
 # Diagram
 
-![Diagram of this project](url-diagram)
+![Diagram of this project](https://github.com/bigsbug/Design-Pattens/blob/main/Django/Signals/diagram.png)
