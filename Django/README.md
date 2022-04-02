@@ -1,2 +1,2 @@
 # Summary
-you can find some implemented projects with observer design patterns here
+you can find some implemented projects with design patterns here
