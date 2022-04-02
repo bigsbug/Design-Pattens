@@ -1,0 +1,1 @@
+# Strategy Desgin Pattern
