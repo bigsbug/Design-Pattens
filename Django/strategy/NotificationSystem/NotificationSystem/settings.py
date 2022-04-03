@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Apps
     "Notification.apps.NotificationConfig",
+    "NormalApp.apps.NormalappConfig",
 ]
 
 MIDDLEWARE = [
