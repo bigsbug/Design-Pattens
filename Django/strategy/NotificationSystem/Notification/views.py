@@ -1,3 +1,9 @@
 from django.shortcuts import render
+from notification_interface import StrategyInterface
 
-# Create your views here.
+
+class Notification:
+    strategy: StrategyInterface
+
+    def Notify(self, request, message, toAll=False) -> bool:
+        return self.strategy.notify(request, message, toAll)
