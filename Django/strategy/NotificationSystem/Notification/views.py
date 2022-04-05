@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from notification_interface import StrategyInterface
+from Notification.notification_interface import StrategyInterface
 
 
 class Notification:

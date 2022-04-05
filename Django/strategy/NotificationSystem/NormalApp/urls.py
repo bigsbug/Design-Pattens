@@ -1,3 +1,7 @@
 from django.urls import path
+from NormalApp.views import home
 
-urlpatterns = []
+app_name = "NormalApp"
+urlpatterns = [
+    path("", home, name="Home"),
+]
